@@ -10,14 +10,6 @@
 // include internal libraries
 #include "app.h"
 
-/******************************************************************************
-*
-* I REMOVED WEAPONS TO BE A LITTLE MORE ORGANIZED
-* AND TO SHOW THE USE OF MULTIPLE MAGIC WORDS
-*
-*******************************************************************************
-*/
-
 Room* initPrisonCell()
 {
     Room* pRoom = new Room("Prison Cell", 30);
@@ -83,4 +75,3 @@ Room* initYard()
 
     return pRoom;
 }
-
